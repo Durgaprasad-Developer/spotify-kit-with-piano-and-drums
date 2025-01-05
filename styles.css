@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.widget-container {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.song-list {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 400px;
+  overflow-y: auto;
+  background-color: #282828;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.song-item {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.song-item:hover {
+  background-color: #444;
+}
+
+.footer {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.control-button:focus {
+  outline: none;
+}
+
+.progress {
+  flex: 1;
+  height: 5px;
+  background-color: #444;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #1db954;
+  border-radius: 5px;
+}
+
+#title {
+  font-family: 'Arvo', serif;
+  margin-bottom: 10px;
+}
+
+.set {
+  display: flex;
+  gap: 10px;
+}
+
+.drum {
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.piano {
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.piano.pressed {
+  background-color: #168cfa;
+  color: black;
+}
+
+.piano-kit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+.drum.pressed {
+  background-color: #1db954;
+  color: black;
+}
+
+
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+/* 🥁 */
