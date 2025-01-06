@@ -58,7 +58,7 @@ document.addEventListener("keydown", (event) => {
 const songs = [
     { title: "7 Years", src: "sounds/7Years.mp3" },
     { title: "Thousand Years", src: "sounds/ThousandYears.mp3" },
-    { title: "The Hanging Trees", src: "TheHangingTree.mp3" },
+    { title: "The Hanging Trees", src: "sounds/TheHangingTree.mp3" },
 ];
 
 const songList = document.getElementById("songList");
